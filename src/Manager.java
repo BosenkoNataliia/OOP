@@ -3,7 +3,7 @@ public class Manager extends User {
     private String responsibilityDistrict;
     private String workPhoneNumber;
 
-
+//Commit 1
     public Manager(String firstName, String lastName, String email, RoleType roleType, String position) {
         super(firstName, lastName, email, roleType);
         this.position = position;
