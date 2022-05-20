@@ -13,7 +13,7 @@ public class User {
     private ArrayList<Card> cards = new ArrayList();
     private Role role;
     private Manager manager;
-
+// Branch_1
     public User(String fullName, String email, RoleType roleType) {
         this.fullName = fullName;
         String [] splitOfFullName = fullName.split(" ");
